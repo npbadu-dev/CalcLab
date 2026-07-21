@@ -1,0 +1,15 @@
+.navigation{
+    padding-top: 3rem;
+    padding-left: 3rem;
+    height: 100%;
+    background-color: var(--nav-background-color);
+}
+.navigation li a{
+    display: block;
+}
+.logo-box{
+    background-color: var(--logo-box-bg-color);
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 1.2rem;
+}

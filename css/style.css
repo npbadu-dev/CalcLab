@@ -4,3 +4,12 @@
 @import url("../css/typography.css");
 @import url("../css/variable.css");
 @import url("../src/output.css");
+
+@import url("../components/nav.css");
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+}
