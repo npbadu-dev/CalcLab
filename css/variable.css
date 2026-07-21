@@ -1,0 +1,10 @@
+:root{
+    --background-color: #0B1220;
+    --primary-text: #F8FAFC;
+    --nav-background-color: #090d22;
+    --logo-box-bg-color: #091127;
+}
+.light{
+    --background-color: #F8FAFC;
+    --primary-text: #0F172A;
+}
