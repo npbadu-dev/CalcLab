@@ -7,9 +7,19 @@
 
 @import url("../components/nav.css");
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    font-size: 1.8rem;
+body {
+  font-size: 1.8rem;
+}
+.hidden {
+  display: none;
+}
+.btn {
+  padding: 5px 22px;
+  /* background-color: aqua; */
+  border-radius: 20px;
+  box-shadow: 0 0 3px rgba(128, 6, 241, 1);
+  /* background-color: #0c1025; */
 }

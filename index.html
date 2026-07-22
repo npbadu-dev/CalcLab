@@ -7,14 +7,26 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="">
+    <div class="header-top-main flex justify-between grid-cols-12 logo-box">
+      <div class="header-top-logo col-span-2">
+        <i class="fa-solid fa-code"></i>
+        <span class="logo-heading-1">Calc</span>
+        <span class="logo-heading-2">Lab</span>
+      </div>
+      <div class="header-top-toggle col-span-10 flex items-center justify-center gap-11">
+        <button class="theme-toggle theme-toggle-dark btn">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <a href="#" class="github-icon"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+
     <div class="main-container grid grid-cols-12 gap-4">
-      <div class="container-1 col-span-2 h-screen flex flex-col">
-        <div class="logo-box">
-          <i class="fa-solid fa-code"></i>
-          <span class="logo-heading">Calc</span>
-          <span>Lab</span>
-        </div>
-        <ul class="navigation flex flex-col gap-3">
+      <div class="container-1 col-span-3 md:col-span-2 h-screen flex flex-col">
+        <ul class="navigation flex flex-col gap-10">
+          <li class="hidden">
+            <a href="#" class="flex gap-2"><i class="fa-solid fa-bars"></i></a>
+          </li>
           <li>
             <a href="#" class="flex gap-2">
               <i class="fa-solid fa-house"></i>
@@ -71,18 +83,7 @@
           </li>
         </ul>
       </div>
-      <div class="container-2 col-span-10">
-        <header>
-          <nav class="navigation-section">
-            <div class="header-top flex justify-end gap-8">
-              <button class="theme-toggle">
-                <i class="fa-solid fa-moon"></i>
-              </button>
-              <a href="#"><i class="fa-brands fa-github"></i></a>
-            </div>
-          </nav>
-        </header>
-
+      <div class="container-2 col-span-9 md:col-span-10 pr-12">
         <main>
           <div class="main-container">
             <div class="hero-section"></div>

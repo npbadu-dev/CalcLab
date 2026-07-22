@@ -3,6 +3,9 @@
     --primary-text: #F8FAFC;
     --nav-background-color: #090d22;
     --logo-box-bg-color: #091127;
+    --logo-box-color: #7b2cbf;
+    --logo-heading-color: #c77dff;
+    --logo-toggle-color: #fff;
 }
 .light{
     --background-color: #F8FAFC;
